@@ -9,12 +9,12 @@ Diese Portfolioseite soll einen kompakten Überblick über eigene Projekte biete
 - Strukturierte Projektübersicht mit Titel, Beschreibung und externem Link
 - Hover-Effekte zur visuellen Rückmeldung
 - Feste Layoutstruktur (Hero-Bereich, Projektbereich, Footer)
-- Responsives Design für Desktop und mobile Endgeräte
 - Social-Icons mit SVGs und Hover-Farbanimation
+- Scrollbasierter Seitenaufbau (Projekte erscheinen nach dem Startbildschirm)
 - Design-Elemente (Verläufe, Transparenz, strukturierte Typografie)
+- Responsives Design für Desktop und mobile Endgeräte
 - Scrollbasierter Seitenaufbau (Projekte erscheinen nach dem Startbildschirm)
 - Kontaktbereich mit E-Mail-Link oder Formular
-- Downloadbare PDF-Version des Lebenslaufs
 - Mehrsprachigkeit (optional)
 
 ## 🖥️ Tech-Stack
@@ -27,8 +27,7 @@ Diese Portfolioseite soll einen kompakten Überblick über eigene Projekte biete
 
 ## 🎯 Ziel
 
-Diese Seite dient als persönliches Portfolio sowie als Übungsprojekt zur praktischen Anwendung von Vue und modernem Webdesign. Ziel ist eine klare, minimalistische Darstellung der eigenen Arbeit – ohne unnötigen Ballast, aber mit Liebe zum Detail.
-
+Diese Seite dient als persönliches Portfolio sowie als Übungsprojekt zur praktischen Anwendung von Vue und modernem Webdesign. Ziel ist eine klare, minimalistische Darstellung der meiner Arbeit
 ## 📌 Hinweis
 
 Die Seite ist noch **weder final noch fertig** – Inhalte, Layouts und Komponenten werden laufend überarbeitet.
