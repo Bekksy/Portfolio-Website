@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --bg: #0A0A14;
+  --text: #FFFFFF;
+  --accent-1: #131F2F;
+  --accent-2: #102E4D;
+  --accent-3: #3F4F6E;
+  --accent-4: #695C7B;
+  --accent-5: #E66F5C;
+  --accent-6: #FE9B62;
+
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-weight: 400;
+
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+body {
+
+  background-color:  var(--bg);
+  background-image: radial-gradient(
+      at 30% 30%,
+      rgba(255, 100, 100, 0.1),
+      transparent 60%
+    ),
+    radial-gradient(
+      at 80% 70%,
+      rgba(255, 160, 255, 0.08),
+      transparent 50%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text);
+  font-family: 'Roboto', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.seite {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projekt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.gradientborder {
+  background: linear-gradient(45deg, var(--accent-5), var(--bg));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  resize: none;
+}
+
+.social-row {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+}
+.social-icon path {
+  fill: var(--accent-5);
+  opacity: 0.4;
+  transition: fill 0.3s ease;
+}
+
+.social-icon:hover path {
+  fill: var(--accent-5);
+  opacity: 1;
+  
+}
+
+.social-icons img {
+  height: 15px;
+  width: 15px;
+  filter: invert(1); /* Weiß bei dunklem Hintergrund */
+}
+
+.karte {
+  background: var(--bg);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.karte h3 {
+  margin: 0;
+}
+.karte a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--accent-5);
+  text-decoration: none;
+}
+
+#seitentitel {
+  font-size: 128px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+
+/* Titel */
+
+.hero-layout {
+  position: relative;
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-stack {
+  position: relative;
+  display: inline-block;
+}
+.hero-left-top {
+  position: absolute;
+  top: -2rem; /* Abstand über BEKKS */
+  left:3rem; /* leicht nach rechts, kannst du feinjustieren */
+  font-size: 1rem;
+  opacity: 0.5;
+  color: var(--accent-4);
+  -webkit-text-stroke: var(--accent-1);
+  -webkit-text-stroke-width: 0.3px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero-center {
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 900;
+  color: var(--text);
+  margin: 0;
+}
+
+.hero-right-bottom {
+  position: absolute;
+  top: 8.5rem;         /* Abstand unterhalb von BEKKS */
+  left: 65%;         /* leicht rechts von der Mitte */
+  transform: translateX(-50%); /* Optional, wenn du es mittiger willst */
+  font-size: 1rem;
+  opacity: 0.5;
+  color: var(--accent-4);
+  -webkit-text-stroke: var(--accent-1);
+  -webkit-text-stroke-width: 0.3px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+#projekt-titel {
+  margin-top: 10rem;
+}
+
+#menu-icon path {
+  stroke: var(--accent-5);
+  opacity: 0.4;
+  transition: fill 0.3s ease;
+}
+
+#menu-icon{
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+#menu-icon path {
+  stroke: var(--accent-5);
+  opacity: 0.4;
+  transition: fill 0.3s ease;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+#menu-icon:hover path {
+  stroke: var(--accent-5);
+  opacity: 1;
+  transition: fill 0.3s ease;
+}
+
