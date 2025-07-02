@@ -32,3 +32,7 @@ Diese Seite dient als persönliches Portfolio sowie als Übungsprojekt zur prakt
 ## 📌 Hinweis
 
 Die Seite ist noch **weder final noch fertig** – Inhalte, Layouts und Komponenten werden laufend überarbeitet.
+
+## 📷 Screenshot
+
+<img src=https://github.com/user-attachments/assets/87fbf2ea-7c8c-41cf-8e62-b75acbebae03 width="800"/>
